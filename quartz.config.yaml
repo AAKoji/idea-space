@@ -19,27 +19,27 @@ configuration:
       header: Schibsted Grotesk
       body: Source Sans Pro
       code: IBM Plex Mono
-  colors:
-    lightMode:
-      light: "#fdf6f0"
-      lightgray: "#ede8e3"
-      gray: "#c4b8b0"
-      darkgray: "#5c5048"
-      dark: "#2e2520"
-      secondary: "#7a9e9f"
-      tertiary: "#c97b7b"
-      highlight: "rgba(189, 169, 159, 0.15)"
-      textHighlight: "#f4c2c288"
-    darkMode:
-      light: "#1a1614"
-      lightgray: "#352e2b"
-      gray: "#6b5f5a"
-      darkgray: "#d9cfc9"
-      dark: "#f0ebe6"
-      secondary: "#9dbfbf"
-      tertiary: "#d49999"
-      highlight: "rgba(189, 169, 159, 0.15)"
-      textHighlight: "#c4767688"
+    colors:
+      lightMode:
+        light: "#fdf6f0"
+        lightgray: "#ede8e3"
+        gray: "#c4b8b0"
+        darkgray: "#5c5048"
+        dark: "#2e2520"
+        secondary: "#7a9e9f"
+        tertiary: "#c97b7b"
+        highlight: "rgba(189, 169, 159, 0.15)"
+        textHighlight: "#f4c2c288"
+      darkMode:
+        light: "#1a1614"
+        lightgray: "#352e2b"
+        gray: "#6b5f5a"
+        darkgray: "#d9cfc9"
+        dark: "#f0ebe6"
+        secondary: "#9dbfbf"
+        tertiary: "#d49999"
+        highlight: "rgba(189, 169, 159, 0.15)"
+        textHighlight: "#c4767688"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
