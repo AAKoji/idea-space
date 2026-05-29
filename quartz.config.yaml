@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: bucher_akoji.pages.dev
+  baseUrl: bucher-akoji.pages.dev
   ignorePatterns:
     - private
     - templates
@@ -16,9 +16,9 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Outfit
-      body: Source Sans 3
-      code: IBM Plex Mono
+      header: "Outfit"
+      body: "Source Sans 3"
+      code: "IBM Plex Mono"
     colors:
       lightMode:
         light: "#fdf6f0"
@@ -260,7 +260,7 @@ plugins:
       name: quartz-themes
       repo: github:saberzero1/quartz-themes
       subdir: plugin
-    enabled: true
+    enabled: false
     options:
       theme: default
   - source: github:quartz-community/obsidian-plugin-excalidraw
